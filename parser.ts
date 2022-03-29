@@ -115,40 +115,40 @@ const getCount = (): number => {
 }
 
 function test1() {
-  const toFind: string = word1;
-  search(charGrid, toFind);
+  const symbol: string = word1;
+  search(charGrid, symbol);
   console.log(getCount());
   resetCount();
   console.log('\n');
 }
 
 function test2() {
-  const toFind: string = wordZ;
-  search(grid2, toFind);
+  const symbol: string = wordZ;
+  search(grid2, symbol);
   console.log(getCount());
   resetCount();
   console.log('\n');
 }
 
 function test3() {
-  const toFind: string = wordZ;
-  search(charGrid, toFind);
+  const symbol: string = wordZ;
+  search(charGrid, symbol);
   console.log(getCount());
   resetCount();
   console.log('\n');
 }
 
 function test4() {
-  const toFind: string = wordA;
-  search(grid2, toFind);
+  const symbol: string = wordA;
+  search(grid2, symbol);
   console.log(getCount());
   resetCount();
   console.log('\n');
 }
 
 function test5() {
-  const toFind: string = wordA;
-  search(charGrid, toFind);
+  const symbol: string = wordA;
+  search(charGrid, symbol);
   console.log(getCount());
   resetCount();
   console.log('\n');
